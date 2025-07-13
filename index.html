@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multimedia Player</title>
+</head>
+<body>
+  <h1>Multimedia Player</h1>
+  <section>
+    <h2>Now Playing: Sailing Away</h2>
+    <audio controls 
+      aria-label="Embedded audio player featuring the track Sailing Away, a musical piece produced by   freeCodeCamp.">
+      <source src="https://cdn.freecodecamp.org/curriculum/js-music-player/sailing-away.mp3"  type="audio/mpeg">
+    </audio>
+  </section>
+  <section>
+    <h2>What is the Map method and how does it work?</h2>
+    <video controls 
+      aria-label="Interactive video player showcasing a brief tutorial on the JavaScript map method   and how it operates." width="640" height="360">
+      <source src="https://cdn.freecodecamp.org/curriculum/labs/What is the map method and how does it work.mp4" type="video/mp4">
+      <track 
+        src="/subtitles.vtt"
+        kind="subtitles"
+        srclang="en"
+        label="English subtitles">
+      </track>
+    </video>
+  </section>
+  <section>
+    <h2>Transcript</h2>
+    <p>
+      The map method in JavaScript is a versatile and commonly used array function. It works by executing a provided callback function on each item within an array, and then constructs a new array containing the results. Importantly, the original array remains unchanged—map simply returns a transformed version based on the logic applied to each element. 
+    </p>
+    <p>
+      This method is particularly useful for transforming data structures, such as converting an array of numbers into their squares or extracting specific properties from an array of objects. The map method is a powerful tool in functional programming, promoting immutability and cleaner code by avoiding direct modifications to the original array.
+    </p>
+  </section>
+</body>
+</html>

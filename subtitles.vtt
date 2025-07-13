@@ -1,0 +1,46 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.000
+What is the map method, and how does it work?
+
+00:00:03.000 --> 00:00:10.000 
+The map method is a powerful and widely used function in JavaScript that operates on arrays.
+
+00:00:11.000 --> 00:00:18.000
+It is designed to create a new array by applying a given function to each element of the original array.
+
+00:00:19.000 --> 00:00:28.000
+This method does not modify the original array, but instead returns a new array containing the results of the function applied to each element.
+
+00:00:29.000 --> 00:00:33.000
+Here's an example of using the map method on an array of numbers.
+
+00:00:34.000 --> 00:00:38.000
+To create a new array where each number is doubled, we are using the map method.
+
+00:00:39.000 --> 00:00:46.000
+The map method accepts a callback function where the function is called on every single element in the array.
+
+00:00:47.000 --> 00:00:50.000
+In this case, each number in the array will be multiplied by two.
+
+00:00:51.000 --> 00:00:55.000
+The result will be a new array of the numbers two, four, six, eight, ten.
+
+00:00:56.000 --> 00:00:59.000
+The callback fuction can accept upto three arguments.
+
+00:01:00.000 --> 00:01:05.000
+The first argument is the current element being processed.
+
+00:01:06.000 --> 00:01:11.000
+The second argument is the index of the current element being processed.
+
+00:01:12.000 --> 00:01:16.000
+The third argument is the array where map is being called on.
+
+00:01:17.000 --> 00:01:26.000
+Understanding and effectively using the map method can significant improve your ability to work with arrays in JavaScript.
+
+00:01:27.000 --> 00:01:39.000
+In future lecture videos, we'll dive deeper into more advanced uses of map and explore how it can be a powerful tool for building dynamic and efficient programs.
